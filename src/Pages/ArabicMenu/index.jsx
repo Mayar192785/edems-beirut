@@ -10,7 +10,7 @@ const ArabicMenu = () => {
 
       <div className="flex flex-col justify-center items-center gap-4 p-4">
         <h1 className="text-[#E3BC7E] text-4xl">EDAM'S</h1>
-        <h2 className="text-white text-3xl font-bold">Arabic Menu</h2>
+        <h2 className="text-white text-3xl font-bold">القائمة العربية</h2>
       </div>
 
       <div className="text-center p-2 mt-8 mb-4">
@@ -220,6 +220,7 @@ const ArabicMenu = () => {
           لمرحلة يستطيع بها تشكيل صورة ذهنية مفصلة عن ما يقرؤه
         </div>
       </div>
+      <hr className="mt-10 h-4 w-full"/>
 
       {/* soup */}
       <div className="text-center p-2 mt-8 mb-4">
@@ -249,6 +250,7 @@ const ArabicMenu = () => {
           لمرحلة يستطيع بها تشكيل صورة ذهنية مفصلة عن ما يقرؤه
         </div>
       </div>
+      <hr className="mt-10 h-4 w-full"/>
 
       {/* salad */}
       <div className="text-center p-2 mt-8 mb-4">
@@ -314,6 +316,7 @@ const ArabicMenu = () => {
           لمرحلة يستطيع بها تشكيل صورة ذهنية مفصلة عن ما يقرؤه
         </div>
       </div>
+      <hr className="mt-10 h-4 w-full"/>
 
       {/* cold appet */}
       <div className="text-center p-2 mt-8 mb-4">
@@ -499,6 +502,7 @@ const ArabicMenu = () => {
           لمرحلة يستطيع بها تشكيل صورة ذهنية مفصلة عن ما يقرؤه
         </div>
       </div>
+      <hr className="mt-10 h-4 w-full"/>
 
       {/* raw meat */}
       <div className="text-center p-2 mt-8 mb-4">
@@ -576,6 +580,7 @@ const ArabicMenu = () => {
           لمرحلة يستطيع بها تشكيل صورة ذهنية مفصلة عن ما يقرؤه
         </div>
       </div>
+      <hr className="mt-10 h-4 w-full"/>
 
       {/* hot appet */}
       <div className="text-center p-2 mt-8 mb-4">
@@ -749,6 +754,8 @@ const ArabicMenu = () => {
           لمرحلة يستطيع بها تشكيل صورة ذهنية مفصلة عن ما يقرؤه
         </div>
       </div>
+      <hr className="mt-10 h-4 w-full"/>
+
 
       {/* main dish */}
       <div className="text-center p-2 mt-8 mb-4">
@@ -948,6 +955,8 @@ const ArabicMenu = () => {
           لمرحلة يستطيع بها تشكيل صورة ذهنية مفصلة عن ما يقرؤه
         </div>
       </div>
+      <hr className="mt-10 h-4 w-full"/>
+
 
       {/* sides */}
       <div className="text-center p-2 mt-8 mb-4">
@@ -1013,6 +1022,8 @@ const ArabicMenu = () => {
           لمرحلة يستطيع بها تشكيل صورة ذهنية مفصلة عن ما يقرؤه
         </div>
       </div>
+      <hr className="mt-10 h-4 w-full"/>
+
 
       {/* dessert */}
       <div className="text-center p-2 mt-8 mb-4">

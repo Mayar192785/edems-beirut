@@ -30,15 +30,15 @@ const MainPage = () => {
         <div className="flex flex-col justify-center items-center gap-4 p-4 w-full">
           <button
             onClick={toEnglish}
-            className="bg-[#efc337] px-9 py-5 rounded-md text-xl"
+            className="bg-[#efc337] px-9 py-5 rounded-md text-2xl"
           >
             English Menu
           </button>
           <button
             onClick={toArabic}
-            className="bg-[#efc337] px-10 py-5  rounded-md text-xl"
+            className="bg-[#efc337] px-9 py-5  rounded-md text-2xl"
           >
-            Arabic Menu
+            القائمة العربية
           </button>
         </div>
       </div>
