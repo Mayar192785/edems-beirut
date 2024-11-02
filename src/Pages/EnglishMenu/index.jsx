@@ -26,18 +26,18 @@ const EnglishMenu = () => {
           justifyContent: "center",
           position: "relative"
         }}
-        data-aos="fade-up"
       >
         <img
           src="https://edams-restaurant.com/wp-content/uploads/2024/01/cropped-EDAMS-FAV-ICON.png"
           alt="name"
+          data-aos="fade-up"
         />
         <div className="absolute top-8 left-4 text-white">
           <button onClick={toHome}>Back</button>
         </div>
       </div>
 
-      <div className="flex flex-col justify-center items-center gap-4 p-4 mb-8">
+      <div className="flex flex-col justify-center items-center gap-4 p-4 mb-8" data-aos="fade-up">
         <h1 className="text-[#E3BC7E] text-4xl">EDAM'S</h1>
         <h2 className="text-white text-3xl font-bold">English Menu</h2>
       </div>
