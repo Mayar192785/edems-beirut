@@ -35,7 +35,7 @@ const Footer = () => {
         {/* Contact Info */}
         <div className="flex flex-col items-center md:items-start">
           <h3 className="font-semibold text-lg">Contact Us</h3>
-          <p className="mt-2 text-sm">📍 Beirut, Lebanon</p>
+          <p className="mt-2 text-sm">📍 Egypt, Cairo</p>
           <p className="text-sm">📞 +961 123 456</p>
           <p className="text-sm">✉️ info@edamsbeirut.com</p>
         </div>

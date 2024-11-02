@@ -1,7 +1,12 @@
 import React from "react";
 import Footer from "../../Components/Footer";
+import { useNavigate } from "react-router-dom";
 
 const ArabicMenu = () => {
+  const navigate = useNavigate();
+  const toHome = () => {
+    navigate("/");
+  };
   return (
     <div className="flex flex-col justify-center items-center bg-[#3a383a]">
       <div
@@ -20,6 +25,9 @@ const ArabicMenu = () => {
           src="https://edams-restaurant.com/wp-content/uploads/2024/01/cropped-EDAMS-FAV-ICON.png"
           alt="name"
         />
+        <div className="absolute top-8 right-4 text-white underline">
+          <button onClick={toHome}>رجوع</button>
+        </div>
       </div>
 
       <div className="flex flex-col justify-center items-center gap-4 p-4">
@@ -32,7 +40,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">اومليت</p>
         </div>
@@ -44,7 +52,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">بيض مقلي</p>
         </div>
@@ -56,7 +64,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">بيض مخفوق</p>
         </div>
@@ -68,7 +76,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">بيض بالسجق</p>
         </div>
@@ -80,7 +88,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">بيض بالكاويرما</p>
         </div>
@@ -92,7 +100,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">شكشوكة</p>
         </div>
@@ -104,7 +112,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">فول لبناني</p>
         </div>
@@ -116,7 +124,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">مسبحة لبناني</p>
         </div>
@@ -128,7 +136,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">فتة حمص</p>
         </div>
@@ -140,7 +148,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">فتة حمص لحم وصنوبر</p>
         </div>
@@ -152,7 +160,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">شنكليش</p>
         </div>
@@ -164,7 +172,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">مناقيش</p>
         </div>
@@ -176,7 +184,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">فلافل</p>
         </div>
@@ -188,7 +196,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">لبنة</p>
         </div>
@@ -200,7 +208,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">لبنة بيروتي</p>
         </div>
@@ -212,7 +220,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">حلومي مشوي</p>
         </div>
@@ -224,7 +232,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">مكدوس</p>
         </div>
@@ -242,7 +250,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">شوربة عدس</p>
         </div>
@@ -254,7 +262,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">شوربة دجاج</p>
         </div>
@@ -272,7 +280,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">فتوش</p>
         </div>
@@ -284,7 +292,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">تبولة</p>
         </div>
@@ -296,7 +304,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">سلطة جرجير</p>
         </div>
@@ -308,7 +316,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">سلطة فلافل</p>
         </div>
@@ -320,7 +328,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">سلطة ايدام</p>
         </div>
@@ -338,7 +346,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">جمص</p>
         </div>
@@ -350,7 +358,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">حمص باللحمة و الصنوبر</p>
         </div>
@@ -362,7 +370,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">متبل</p>
         </div>
@@ -374,7 +382,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">بابا غنوج</p>
         </div>
@@ -386,7 +394,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">ورق عنب بالزيت</p>
         </div>
@@ -398,7 +406,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">شنكليش</p>
         </div>
@@ -410,7 +418,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">لبنة</p>
         </div>
@@ -422,7 +430,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">لبنة بيروتي</p>
         </div>
@@ -434,7 +442,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">لبنة ماعز</p>
         </div>
@@ -446,7 +454,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">محمرة</p>
         </div>
@@ -458,7 +466,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">فتة حمص</p>
         </div>
@@ -470,7 +478,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">ارضي شوقي</p>
         </div>
@@ -482,7 +490,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">لوبة بالزيت</p>
         </div>
@@ -494,7 +502,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">شمندر</p>
         </div>
@@ -506,7 +514,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">سندوتشات صغيرة</p>
         </div>
@@ -524,7 +532,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">لبنة و زعتر</p>
         </div>
@@ -536,7 +544,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">كبة نية</p>
         </div>
@@ -548,7 +556,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">كبة فريك</p>
         </div>
@@ -560,7 +568,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">هبرة نية</p>
         </div>
@@ -572,7 +580,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">كفتة نية</p>
         </div>
@@ -584,7 +592,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">مركب ايدام ممشكل لحم ني</p>
         </div>
@@ -602,7 +610,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">يطاطا حارة</p>
         </div>
@@ -614,7 +622,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">كبة</p>
         </div>
@@ -626,7 +634,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">سمبوسك جبنة</p>
         </div>
@@ -638,7 +646,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">سمبوسك لحمة</p>
         </div>
@@ -650,7 +658,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">مكانك</p>
         </div>
@@ -662,7 +670,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">سجق</p>
         </div>
@@ -674,7 +682,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">اصابع البطاطا المقلية</p>
         </div>
@@ -686,7 +694,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">حلومي مشوي</p>
         </div>
@@ -698,7 +706,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">ترابلسية</p>
         </div>
@@ -710,7 +718,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">رولز جبنة</p>
         </div>
@@ -722,7 +730,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">رولز جبنة بالبسطرمة</p>
         </div>
@@ -734,7 +742,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">حلومي مشوي بالبيستو</p>
         </div>
@@ -746,7 +754,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">راس عصفور</p>
         </div>
@@ -758,7 +766,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">راس عصفور بالبيستو الاحمر</p>
         </div>
@@ -778,7 +786,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">دجاج مشوي</p>
         </div>
@@ -790,7 +798,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">دجاج مطافي</p>
         </div>
@@ -802,7 +810,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">شيش طاووق</p>
         </div>
@@ -814,7 +822,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">كفتة</p>
         </div>
@@ -826,7 +834,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">ريش</p>
         </div>
@@ -838,7 +846,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">مركب مشوي مشكل</p>
         </div>
@@ -850,7 +858,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">لحمة بالكرز</p>
         </div>
@@ -862,7 +870,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">رز و دجاج</p>
         </div>
@@ -874,7 +882,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">اوزي خبز مرقوق</p>
         </div>
@@ -886,7 +894,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">كباب</p>
         </div>
@@ -898,7 +906,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">كبسة دجاج</p>
         </div>
@@ -910,7 +918,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">بوفتيك مطافي</p>
         </div>
@@ -922,7 +930,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">كفتة عرايس</p>
         </div>
@@ -934,7 +942,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">ورق عنب باللحم</p>
         </div>
@@ -946,7 +954,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">كبة زغرتوية</p>
         </div>
@@ -958,7 +966,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">ارضي شوكي باللحمة</p>
         </div>
@@ -976,7 +984,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">صحن خضرة</p>
         </div>
@@ -988,7 +996,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">صحن كبس</p>
         </div>
@@ -1000,7 +1008,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">ثوم</p>
         </div>
@@ -1012,7 +1020,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">دبس رمان</p>
         </div>
@@ -1024,7 +1032,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">كول سلو</p>
         </div>
@@ -1042,7 +1050,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">سان سبستيان</p>
         </div>
@@ -1054,7 +1062,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">كنافة بيروتي</p>
         </div>
@@ -1066,7 +1074,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">غزل البنات</p>
         </div>
@@ -1078,7 +1086,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">رز بالحليب</p>
         </div>
@@ -1090,7 +1098,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">حلاوة بجبن</p>
         </div>
@@ -1102,7 +1110,7 @@ const ArabicMenu = () => {
       </div>
 
       <div className="w-full px-2 md:px-0 md:w-5/12 mt-8">
-        <div className="flex justify-between items-center font-bold text-2xl py-2">
+        <div className="flex justify-between items-center font-bold text-xl py-2">
           <p className="text-[#E3BC7E]">275 EGP</p>
           <p className="text-white">اوسمالية</p>
         </div>
