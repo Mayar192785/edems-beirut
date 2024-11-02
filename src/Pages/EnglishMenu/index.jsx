@@ -1,12 +1,27 @@
 import React from "react";
+import Footer from "../../Components/Footer";
+import BackButton from "../../Components/back_button";
 
 const EnglishMenu = () => {
   return (
     <div className="flex flex-col justify-center items-center bg-[#3a383a]">
-      <img
-        src="https://edams-restaurant.com/wp-content/uploads/2024/01/cropped-EDAMS-FAV-ICON.png"
-        alt="name"
-      />
+      <div
+        style={{
+          width: "100%",
+          backgroundImage:
+            'url("https://img.freepik.com/premium-photo/black-stone-surface-background_1076581-1354.jpg")',
+          backgroundSize: "cover", // Cover the entire div
+          backgroundPosition: "center", // Center the image
+          display: "flex", // Make div a flex container
+          alignItems: "center", // Center vertically
+          justifyContent: "center", // Center horizontally
+        }}
+      >
+        <img
+          src="https://edams-restaurant.com/wp-content/uploads/2024/01/cropped-EDAMS-FAV-ICON.png"
+          alt="name"
+        />
+      </div>
 
       <div className="flex flex-col justify-center items-center gap-4 p-4 mb-8">
         <h1 className="text-[#E3BC7E] text-4xl">EDAM'S</h1>
@@ -136,9 +151,7 @@ const EnglishMenu = () => {
 
       <div class="w-full md:w-5/12 mt-8">
         <div className="flex justify-between items-center font-bold text-2xl py-2">
-          <p className="text-white">
-            Fattet homous lahme and snawbar
-          </p>
+          <p className="text-white">Fattet homous lahme and snawbar</p>
           <p className="text-[#E3BC7E]">EGP 250</p>
         </div>
         <p className="text-white text-lg p-2">
@@ -187,7 +200,7 @@ const EnglishMenu = () => {
           obcaecati eaque atque.
         </p>
       </div>
-      
+
       <div class="w-full md:w-5/12 mt-8">
         <div className="flex justify-between items-center font-bold text-2xl py-2">
           <p className="text-white">Labneh</p>
@@ -213,7 +226,7 @@ const EnglishMenu = () => {
           obcaecati eaque atque.
         </p>
       </div>
-      
+
       <div class="w-full md:w-5/12 mt-8">
         <div className="flex justify-between items-center font-bold text-2xl py-2">
           <p className="font-bold text-white">Grilled haloumi</p>
@@ -239,7 +252,7 @@ const EnglishMenu = () => {
           obcaecati eaque atque.
         </p>
       </div>
-    <hr className="mt-10 h-4 w-full"/>
+      <hr className="mt-10 h-4 w-full" />
 
       {/* Soup */}
 
@@ -273,7 +286,7 @@ const EnglishMenu = () => {
         </p>
       </div>
 
-      <hr className="mt-10 h-4 w-full"/>
+      <hr className="mt-10 h-4 w-full" />
 
       {/* Salad */}
 
@@ -346,12 +359,14 @@ const EnglishMenu = () => {
         </p>
       </div>
 
-      <hr className="mt-10 h-4 w-full"/>
+      <hr className="mt-10 h-4 w-full" />
 
       {/* cold appet */}
 
       <div className="text-center p-2 mt-8 mb-4">
-        <h2 className="text-[#E3BC7E] text-4xl px-4 text-center">Cold Appetizers</h2>
+        <h2 className="text-[#E3BC7E] text-4xl px-4 text-center">
+          Cold Appetizers
+        </h2>
       </div>
 
       <div class="w-full md:w-5/12 mt-8">
@@ -460,9 +475,7 @@ const EnglishMenu = () => {
 
       <div class="w-full md:w-5/12 mt-8">
         <div className="flex justify-between items-center font-bold text-2xl py-2">
-          <p className="text-white">
-            Labneh m3ez
-          </p>
+          <p className="text-white">Labneh m3ez</p>
           <p className="text-[#E3BC7E]">EGP 250</p>
         </div>
         <p className="text-white text-lg p-2">
@@ -511,7 +524,7 @@ const EnglishMenu = () => {
           obcaecati eaque atque.
         </p>
       </div>
-      
+
       <div class="w-full md:w-5/12 mt-8">
         <div className="flex justify-between items-center font-bold text-2xl py-2">
           <p className="text-white">Loubye b zet</p>
@@ -537,7 +550,7 @@ const EnglishMenu = () => {
           obcaecati eaque atque.
         </p>
       </div>
-      
+
       <div class="w-full md:w-5/12 mt-8">
         <div className="flex justify-between items-center font-bold text-2xl py-2">
           <p className="font-bold text-white">Mini sandwiches</p>
@@ -564,8 +577,7 @@ const EnglishMenu = () => {
         </p>
       </div>
 
-      <hr className="mt-10 h-4 w-full"/>
-
+      <hr className="mt-10 h-4 w-full" />
 
       {/* Raw meat */}
 
@@ -638,12 +650,14 @@ const EnglishMenu = () => {
         </p>
       </div>
 
-      <hr className="mt-10 h-4 w-full"/>
+      <hr className="mt-10 h-4 w-full" />
 
       {/* Hot appet */}
 
       <div className="text-center p-2 mt-8 mb-4">
-        <h2 className="text-[#E3BC7E] text-4xl px-4 text-center">Hot Appetizers</h2>
+        <h2 className="text-[#E3BC7E] text-4xl px-4 text-center">
+          Hot Appetizers
+        </h2>
       </div>
 
       <div class="w-full md:w-5/12 mt-8">
@@ -752,9 +766,7 @@ const EnglishMenu = () => {
 
       <div class="w-full md:w-5/12 mt-8">
         <div className="flex justify-between items-center font-bold text-2xl py-2">
-          <p className="text-white">
-            Trabelseyye
-          </p>
+          <p className="text-white">Trabelseyye</p>
           <p className="text-[#E3BC7E]">EGP 250</p>
         </div>
         <p className="text-white text-lg p-2">
@@ -803,7 +815,7 @@ const EnglishMenu = () => {
           obcaecati eaque atque.
         </p>
       </div>
-      
+
       <div class="w-full md:w-5/12 mt-8">
         <div className="flex justify-between items-center font-bold text-2xl py-2">
           <p className="text-white">Ras 3asfour</p>
@@ -830,8 +842,8 @@ const EnglishMenu = () => {
         </p>
       </div>
 
-      <hr className="mt-10 h-4 w-full"/>
-      
+      <hr className="mt-10 h-4 w-full" />
+
       {/* Main dish */}
 
       <div className="text-center p-2 mt-8 mb-4">
@@ -944,9 +956,7 @@ const EnglishMenu = () => {
 
       <div class="w-full md:w-5/12 mt-8">
         <div className="flex justify-between items-center font-bold text-2xl py-2">
-          <p className="text-white">
-            Ouzi markouk bread
-          </p>
+          <p className="text-white">Ouzi markouk bread</p>
           <p className="text-[#E3BC7E]">EGP 250</p>
         </div>
         <p className="text-white text-lg p-2">
@@ -995,7 +1005,7 @@ const EnglishMenu = () => {
           obcaecati eaque atque.
         </p>
       </div>
-      
+
       <div class="w-full md:w-5/12 mt-8">
         <div className="flex justify-between items-center font-bold text-2xl py-2">
           <p className="text-white">3areys kafta</p>
@@ -1021,7 +1031,7 @@ const EnglishMenu = () => {
           obcaecati eaque atque.
         </p>
       </div>
-      
+
       <div class="w-full md:w-5/12 mt-8">
         <div className="flex justify-between items-center font-bold text-2xl py-2">
           <p className="font-bold text-white">Kebbe zghertewiye</p>
@@ -1048,7 +1058,7 @@ const EnglishMenu = () => {
         </p>
       </div>
 
-      <hr className="mt-10 h-4 w-full"/>
+      <hr className="mt-10 h-4 w-full" />
 
       {/* Sides */}
 
@@ -1121,7 +1131,7 @@ const EnglishMenu = () => {
         </p>
       </div>
 
-      <hr className="mt-10 h-4 w-full"/>
+      <hr className="mt-10 h-4 w-full" />
 
       {/* dessert */}
 
@@ -1206,7 +1216,7 @@ const EnglishMenu = () => {
           obcaecati eaque atque.
         </p>
       </div>
-
+      <Footer />
     </div>
   );
 };
