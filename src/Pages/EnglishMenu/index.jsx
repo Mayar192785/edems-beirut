@@ -26,6 +26,7 @@ const EnglishMenu = () => {
           justifyContent: "center",
           position: "relative"
         }}
+        data-aos="fade-up"
       >
         <img
           src="https://edams-restaurant.com/wp-content/uploads/2024/01/cropped-EDAMS-FAV-ICON.png"
