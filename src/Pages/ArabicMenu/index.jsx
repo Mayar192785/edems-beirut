@@ -30,13 +30,14 @@ const ArabicMenu = () => {
         <img
           src="https://edams-restaurant.com/wp-content/uploads/2024/01/cropped-EDAMS-FAV-ICON.png"
           alt="name"
+          data-aos="fade-up"
         />
         <div className="absolute top-8 right-4 text-white underline">
           <button onClick={toHome}>رجوع</button>
         </div>
       </div>
 
-      <div className="flex flex-col justify-center items-center gap-4 p-4">
+      <div className="flex flex-col justify-center items-center gap-4 p-4" data-aos="fade-up">
         <h1 className="text-[#E3BC7E] text-4xl">EDAM'S</h1>
         <h2 className="text-white text-3xl font-bold">القائمة العربية</h2>
       </div>
